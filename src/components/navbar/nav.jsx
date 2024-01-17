@@ -1,17 +1,22 @@
-import { Link } from './link';
 import './nav.css';
 import { FaGithubAlt } from "react-icons/fa";
+import {useState} from 'react';
+import { LinkClick } from '../Elements/LinkClick';
 
 export const Navbar = () => {
+    const [active, setActive] = useState("");
+    
     return(
-        <header className="navBox">
-            <FaGithubAlt className="logo" />
-            <section className="links">
-                <Link text="Home" href=""></Link>
-                <Link text="About" href=""></Link>
-                <Link text="Projects" href=""></Link>
-                <Link text="Contact" href=""></Link>
-            </section>
-        </header>
+            <header className="header">
+                <nav className="navBox"> 
+                    <FaGithubAlt className="logo" />
+                    <section className="links">
+                    <LinkClick href="#HomeSec" text="Hjem" active={active} setActive={setActive} />
+                    <LinkClick href="#AboutSec" text="Om Meg" active={active} setActive={setActive} />
+                    <LinkClick href="#ProjectSec" text="Prosjekter" active={active} setActive={setActive} />
+                    <LinkClick href="#ContactSec" text="Kontakt Info" active={active} setActive={setActive} />
+                    </section>
+                </nav>
+            </header>
     )
-}
+};

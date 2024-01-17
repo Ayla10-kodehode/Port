@@ -1,11 +1,11 @@
-.navBox{
+
+#navBox{
     padding: 30px;
-    background-color: aquamarine;
     border-radius: 0px 0px 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:40px;
+
 }
 
 .logo{
@@ -15,14 +15,14 @@
 
 .links{
     display: flex;
-    align-items: center;
+    gap: 15px;
 }
-.linkDiv{
-    display: flex;
-    padding:10px;
-}
-a{
+
+.navBox a{
     text-decoration: none;
-    color: black;
     font-size: 20px;
+    padding: 0px 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
+
