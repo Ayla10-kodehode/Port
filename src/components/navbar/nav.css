@@ -1,4 +1,7 @@
-
+.header{
+    position: sticky;
+    top:0;
+}
 .navBox{
     padding: 30px;
     border-radius: 0px 0px 20px 20px;
@@ -25,4 +28,5 @@
     font-weight: 600;
     letter-spacing: 2px;
 }
+
 

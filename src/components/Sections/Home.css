@@ -1,8 +1,21 @@
-#HomeSec{
-    margin:100px;
-    height: 700px;
+.Hidden{
+    visibility: hidden;
 }
-
+.HeroSec{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+.TextBox{
+    display: flex;
+    flex-direction: column;
+}
 #HomeSec h1{
     font-size: 60px;
+}
+
+#HomeSec img{
+    width: 400px;
+    height: 400px;
 }
