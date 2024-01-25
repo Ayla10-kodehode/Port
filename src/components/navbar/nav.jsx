@@ -1,5 +1,4 @@
 import './nav.css';
-import { FaGithubAlt } from "react-icons/fa";
 import {useState} from 'react';
 import { LinkClick } from '../Elements/LinkClick';
 
@@ -9,7 +8,7 @@ export const Navbar = () => {
     return(
             <header className="header">
                 <nav className="navBox"> 
-                    <FaGithubAlt className="logo" />
+                    <h3>Ayla</h3>
                     <section className="links">
                     <LinkClick href="#HomeSec" text="Hjem" active={active} setActive={setActive} />
                     <LinkClick href="#AboutSec" text="Om Meg" active={active} setActive={setActive} />

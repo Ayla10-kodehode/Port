@@ -1,4 +1,34 @@
 #AboutSec{
-
     height: 700px;
+    padding-bottom: 10px;
 }
+
+.AboutDiv{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.AboutDiv img{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.AboutDiv article{
+    padding: 30px;
+
+}
+
+.AboutDiv h3{
+    color:#6A3144;
+}
+
+.Para{
+    width: 400px;
+
+}
+

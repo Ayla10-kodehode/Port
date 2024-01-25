@@ -1,21 +1,45 @@
-.Hidden{
-    visibility: hidden;
+.HomeDiv{
+    padding-top: 120px;
+    padding-bottom: 50px;
+
 }
+
 .HeroSec{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 300px;
 }
 .TextBox{
     display: flex;
     flex-direction: column;
 }
 #HomeSec h1{
-    font-size: 60px;
+    font-size: 55px;
+    margin-bottom: 0;
 }
 
 #HomeSec img{
     width: 400px;
     height: 400px;
+}
+
+.IconDiv{
+    display: flex;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.Ferdigheter{
+    margin-top: 80px; 
+    color:#6A3144;
+}
+
+.UnderDiv{
+    display:flex;
+    justify-content: center;
 }
